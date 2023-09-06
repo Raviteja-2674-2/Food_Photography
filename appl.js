@@ -56,50 +56,50 @@ app.use(express.urlencoded({extended:true}));  // eee line esthe...database lo a
 app.get('/', (req, res)=>{
     //const params = { }
     // res.status(200).sendFile(path.join("home.html");
-    res.sendFile(path.join(__dirname ,'../FoodProject','/views','home.html'));
+    res.sendFile(path.join(__dirname ,'/views','home.html'));
 })
 
 app.get('/aboutus', (req, res)=>{ 
     // const params = { }
     // res.status(200).end(aboutus);
-    res.sendFile(path.join(__dirname ,'../FoodProject','/views','aboutus.html'));
+    res.sendFile(path.join(__dirname ,'/views','aboutus.html'));
 })
 
 app.get('/portfolio', (req, res)=>{ 
     // const params = { }
     // res.status(200).end(portfolio);
-    res.sendFile(path.join(__dirname ,'../FoodProject','/views','portfolio.html'));
+    res.sendFile(path.join(__dirname ,'/views','portfolio.html'));
 })
 app.get('/editorial', (req, res)=>{ 
     // const params = { }
     // res.status(200).end(editorial);
-    res.sendFile(path.join(__dirname ,'../FoodProject','/views','editorial.html'));
+    res.sendFile(path.join(__dirname ,'/views','editorial.html'));
 })
 app.get('/foodserve', (req, res)=>{ 
     // const params = { }
     // res.status(200).end(foodserve);
-    res.sendFile(path.join(__dirname ,'../FoodProject','/views','foodserve.html'));
+    res.sendFile(path.join(__dirname ,'/views','foodserve.html'));
 })
 
 app.get('/bakedfoods', (req, res)=>{ 
     // const params = { }
     // res.status(200).end(bakedfoods);
-    res.sendFile(path.join(__dirname ,'../FoodProject','/views','bakedfoods.html'));
+    res.sendFile(path.join(__dirname ,'/views','bakedfoods.html'));
 })
 app.get('/blog', (req, res)=>{ 
     // const params = { }
     // res.status(200).end(blog);
-    res.sendFile(path.join(__dirname ,'../FoodProject','/views','blog.html'));
+    res.sendFile(path.join(__dirname ,'/views','blog.html'));
 })
 app.get('/books', (req, res)=>{ 
     // const params = { }
     // res.status(200).end(books);
-    res.sendFile(path.join(__dirname ,'../FoodProject','/views','books.html'));
+    res.sendFile(path.join(__dirname ,'/views','books.html'));
 })
 app.get('/contact', (req, res)=>{ 
     // const params = { }
     // res.status(200).end(contact);
-    res.sendFile(path.join(__dirname ,'../FoodProject','/views','contact.html'));
+    res.sendFile(path.join(__dirname ,'/views','contact.html'));
 })
 
 // to  save details to database..
